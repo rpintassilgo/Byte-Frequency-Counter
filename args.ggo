@@ -1,0 +1,20 @@
+package "ggo file"
+version "1.0"
+purpose "SO project"
+
+# Options
+option "compact"  c "This parameter processes files in compact mode"                                                                       no
+option "dir"      d "This parameter processes all regular files in the DIR directory"                                               string no
+option "discrete" - "This parameter shows the count of the values ​​indicated in the list of values"                                  string no
+option "file"     f "This parameter processes the files indicated in the list"                                                      string no
+option "no-help"  h "This parameter prints a simple guide with all the avaible options"                                                    no
+option "mode"     m "This parameter makes an octet, bi-octet or quad-octet oriented count"                                          int    no
+option "output"   o "This parameter implies that the results of the application must be written to the file file"                   string no
+option "search"   s "This parameter indicates all occurrences of a specific octet pattern (hexadecimal)"                            string no
+option "time"     - "This parameter indicates in seconds, with precision up to microseconds, the execution time of the application"        no
+
+
+
+#
+# NOTE: support for this file needs to be enabled in 'makefile'
+# help
